@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-grid-div{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    margin-left: 15px;
+    grid-gap: 5px;
+}
+.calculator-div{
+    margin: 200px;
+}
+.title-text{
+    margin-left:150px;
+}
+.num-button,.divide-button,.add-button,.mul-button,.equal-button,.dot-button,.clear-button,.sub-button,.mod-button,.power-button,.sign-change-button{
+    border: none;
+    border-radius: 50%;
+    font-weight:25px;
+    font-size: 15px;
+    
+}
+
+.js-text-box{
+    height:40px;
+    width: 400px;
+    margin:15px;
+}

@@ -1,0 +1,50 @@
+body{
+    font-family: Arial;
+    background-color: #85dcb8;
+    color: white;
+}
+
+.add-button{
+    background-color: #41bca3;
+    color:white;
+    border: none;
+    padding: 10px 23px;
+    font-size: 16px;
+    margin-left: 22px;
+    cursor: pointer;
+
+}
+
+.date-input,.input-box{
+    padding: 11px 16px;
+    font-size:16px;
+    color:gray;
+    margin-right:6px;
+}
+
+.delete-button{
+    background-color: #e27d60;
+    color:white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 16px;
+    margin-left: 64px;
+    cursor: pointer;
+}
+.due-para{
+    padding-left: 36px;
+}
+.task-para{
+    padding-left: 35px;
+}
+.input-div{
+    margin-bottom: 10px;
+}
+.todo-div{
+    display : grid ;
+    grid-template-columns:220px 150px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
